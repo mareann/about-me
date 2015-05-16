@@ -78,4 +78,5 @@ padding: 25px 50px;
 .social > li {
     display: inline-block;
     padding-bottom:3rem;
+    padding-right:2rem;
 }
