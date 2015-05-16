@@ -1,6 +1,6 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 body {
@@ -11,8 +11,11 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-    .header_sec {
+    .header_sec .topheader {
         font-size: 1.5em;
+    }
+    .header_sec {
+      padding: 3em 0;
     }
 }
 .header_sec {
@@ -46,9 +49,9 @@ padding: 25px 50px;
     top and bottom paddings are 25px
     right and left paddings are 50px */
 .intro_sec, .from_sec, .about_sec {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   /* top bottom 0 right left 6em */
-  padding:0 6em;
+  padding:0 6rem;
   text-align:justify left; 
   font-family: "Gentium Book Basic", Georgia, serif;
 }
@@ -63,8 +66,9 @@ padding: 25px 50px;
  background-color:gray;
  text-align:center;
  /* top bottom 0 right left 6em */
- padding: 2em 0;
- font-size: 1.2em;
+ padding: 2rem 0;
+ padding-bottom:0;
+ font-size: 1.2rem;
  font-family:verdana;
  /*border-top-style: solid;
  border-top-color: #FFCF33;
@@ -73,4 +77,5 @@ padding: 25px 50px;
 
 .social > li {
     display: inline-block;
+    padding-bottom:3rem;
 }
